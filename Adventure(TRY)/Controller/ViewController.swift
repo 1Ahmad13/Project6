@@ -30,22 +30,48 @@ class ViewController: UIViewController {
         storyBrain.nextStory(userChoice: sender.currentTitle!)
         updateUI()
         switch storyBrain.storyNumber{
-        case 5: ImageView1.image = #imageLiteral(resourceName: "jeopardy!-3")
+        case 12: ImageView1.image = #imageLiteral(resourceName: "34-344450_tiger-and-man-fight")
+            storyLabel1.textColor = UIColor.white
             
-        case 4: ImageView1.image = #imageLiteral(resourceName: "jeopardy!-4")
-        
-        case 3: ImageView1.image = #imageLiteral(resourceName: "jeopardy!-3")
+        case 11: ImageView1.image = #imageLiteral(resourceName: "34-344450_tiger-and-man-fight")
+            storyLabel1.textColor = UIColor.white
             
-        case 2: ImageView1.image = #imageLiteral(resourceName: "Untitled design-12")
+        case 10: ImageView1.image = #imageLiteral(resourceName: "7855003-man-behind-bars")
+            storyLabel1.textColor = UIColor.black
             
-        case 1: ImageView1.image = #imageLiteral(resourceName: "jeopardy!-4")
+        case 9: ImageView1.image = #imageLiteral(resourceName: "34-344450_tiger-and-man-fight")
+            storyLabel1.textColor = UIColor.white
             
-        case 0: ImageView1.image = #imageLiteral(resourceName: "jeopardy!-3")
+        case 8: ImageView1.image = #imageLiteral(resourceName: "34-344450_tiger-and-man-fight")
+            storyLabel1.textColor = UIColor.white
+            
+        case 7: ImageView1.image = #imageLiteral(resourceName: "7855003-man-behind-bars")
+            storyLabel1.textColor = UIColor.black
+            
+        case 6: ImageView1.image = #imageLiteral(resourceName: "34-344450_tiger-and-man-fight")
+            storyLabel1.textColor = UIColor.white
+            
+        case 5: ImageView1.image = #imageLiteral(resourceName: "34-344450_tiger-and-man-fight")
+            storyLabel1.textColor = UIColor.white
+            
+        case 4: ImageView1.image = #imageLiteral(resourceName: "34-344450_tiger-and-man-fight")
+            storyLabel1.textColor = UIColor.white
+            
+        case 3: ImageView1.image = #imageLiteral(resourceName: "34-344450_tiger-and-man-fight")
+            storyLabel1.textColor = UIColor.white
+            
+        case 2: ImageView1.image = #imageLiteral(resourceName: "34-344450_tiger-and-man-fight")
+            storyLabel1.textColor = UIColor.white
+            
+        case 1: ImageView1.image = #imageLiteral(resourceName: "DENIED!")
+            storyLabel1.textColor = UIColor.black
+            
+        case 0: ImageView1.image = #imageLiteral(resourceName: "kingdom")
+            storyLabel1.textColor = UIColor.black
             
         default: print("error")
         }
     }
-    
     
     
     func updateUI() {

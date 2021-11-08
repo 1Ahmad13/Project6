@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "jeopardy!-3.png",
+      "filename" : "kingdom.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "jeopardy!-3@2x.png",
+      "filename" : "kingdom@2x.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "jeopardy!-3@3x.png",
+      "filename" : "kingdom@3x.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }
